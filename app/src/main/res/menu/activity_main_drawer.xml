@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_fashion"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="FASHION WEAR" />
+        <item
+            android:id="@+id/nav_dance"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="DANCE WEAR" />
+        <item
+            android:id="@+id/nav_create"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="CREATE COSTUME" />
+        <item
+            android:id="@+id/nav_shoes"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="SHOES" />
+
+        <item
+            android:id="@+id/nav_accer"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="ACCESSORIES" />
+
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/ic_menu_share"
+                android:title="LOGIN" />
+            <item
+                android:id="@+id/nav_signup"
+                android:icon="@drawable/ic_menu_send"
+                android:title="SIGN UP" />
+
+            <item
+                android:id="@+id/nav_contactus"
+                android:icon="@drawable/ic_menu_send"
+                android:title="CONTACT US" />
+
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/ic_menu_send"
+                android:title="ABOUT US" />
+
+        </menu>
+    </item>
+
+</menu>

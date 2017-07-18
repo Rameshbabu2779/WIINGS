@@ -12,11 +12,6 @@ import com.example.ramesh.wiings.Adapter.WII_NavigationAdapter;
 import com.example.ramesh.wiings.R;
 
 import java.util.ArrayList;
-import java.util.HashMap;
-
-/**
- * Created by Ram on 13-07-2017.
- */
 
 public class WII_NavigationDrawerListFrag extends Fragment {
 
@@ -24,8 +19,8 @@ public class WII_NavigationDrawerListFrag extends Fragment {
 
     RecyclerView.Adapter mAdapter;
     RecyclerView.LayoutManager mLayoutManager;
-    ArrayList<HashMap<String,String>> myArrList;
 
+    //ArrayList<HashMap<String,String>> myArrList;
     ArrayList<String>myList;
 
     public WII_NavigationDrawerListFrag(MainActivity mainActivity) {
@@ -37,21 +32,21 @@ public class WII_NavigationDrawerListFrag extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View aView=inflater.inflate(R.layout.wii_navi_drawer_frag,null);
-        myArrList=new ArrayList<>();
+        View aView=inflater.inflate(R.layout.wii_navi_drawer_frag,container);
+        //myArrList=new ArrayList<>();
         myList=new ArrayList<>();
 
 
-        HashMap aHashMap=new HashMap();
+        /*HashMap aHashMap=new HashMap();
         aHashMap.put("fash_key","FASHION");
         aHashMap.put("fash_key","DANCE");
         aHashMap.put("fash_key","CREATE COSTUME");
         aHashMap.put("fash_key","SHOES");
         aHashMap.put("fash_key","ACCESSORIES");
 
+        myArrList.add(aHashMap);*/
 
 
-        myArrList.add(aHashMap);
 
         myList.add("FASHION");
         myList.add("DANCE");
